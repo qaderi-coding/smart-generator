@@ -29,10 +29,14 @@ npm run init // Generates scripts that we will run later
 npm run backend // Installs all essential backend dependencies and will generate backend common code required by a project
 npm run frontend // Installs all essential frontend dependencies and will generate frontend common code required by a project
 ```
-Boom, You avoided time consumption, enjoy the saved time! 😀
+Boom, you avoided time consumption, enjoy the saved time! 😀
 ## You still don't know how it works, let's try an example 
 ### Requirements 
-- We want to develop a Whitelist-Dapp for instance.
+- We want to develop a Whitelist-Dapp for instance
+- The backend directory name shoud be `backend` where we will have our contracts 
+- The contract name should be `CryptoDev`
+- The network should be `Rinkeby`
+- The frontend directory name should be `frontend` where we will have our website
 
 Let's see how smart-generator package generates the essential code for us and how it installs all required dependencies for backend and frontend.
 ### Backend 
@@ -276,7 +280,7 @@ Happy codding! 😀😀😀
 ## Changelog 
 - Shall make npm package that you can install through npm instead cloning 
 - Shall make GUI application in electron.js that you can use in Linux, Mac and Windows operating systems 
-- Shall enrich the package reduce the user interaction and to make the life of developers easier by automation
+- Shall enrich the package to reduce the user interaction and to make the life of developers easier by automation
 
 ## Contributing
 
