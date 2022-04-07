@@ -1,0 +1,10 @@
+cd ..
+mkdir {{backendDirName}}
+cd {{backendDirName}}
+npm init --yes
+npm install --save-dev hardhat
+npx hardhat
+cd ..
+cd smart-generator
+npm run generate-backend
+exit

@@ -1,0 +1,16 @@
+{
+  "name": "smart-generator",
+  "version": "1.0.0",
+  "description": "The repetitive tasks are boring and most time-consuming while developing a project, and most of the projects have share points initially. This package is for a web3 project that consists of backend and frontend. To prepare a project we need a bunch of commands for creating directories, project initialization, installing dependencies, adding initial shared code, and much more on both ends.",
+  "main": "index.js",
+  "scripts": {
+    "init": "plop init --force",
+    "backend": "sh backend.sh",
+    "frontend": "sh frontend.sh",
+    "generate-backend": "plop backend-generator --force",
+    "generate-frontend": "plop frontend-generator --force"
+  },
+  "keywords": [],
+  "author": "Ehsanullah Qaderi",
+  "license": "ISC"
+}
