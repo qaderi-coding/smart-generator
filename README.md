@@ -8,7 +8,7 @@ Hey, Developers! Don't worry, as a LearnWeb3DAO school student, I resolved these
 
 Just by cloning this tiny repository you will be able to prepare the project along with essential code that is shared between all common projects by running 3 or 4 commands instead typing a lot of commands manually.
 
-# Prerequisite
+## Prerequisite
 - You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
 - You need to install plopjs, execute the following command to install it
 ```
@@ -18,8 +18,8 @@ Plopjs is a Javascript package which is used for files and code generation and t
 
 We need to install plopjs globally in order to use it for different projects.
 
-# Running the package
-## Backend 
+## Running the package
+### Backend 
 
 Cool, to run the package for backend, follow the instructions below.
 - First, you need to create a folder where you will have your backend and frontend folders
