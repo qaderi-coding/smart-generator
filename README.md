@@ -52,7 +52,7 @@ Now, it is time to install hardhat along with initial code. So execute the follo
 npm run backend
 ```
 
-This one command will save you from typing manual, and will:
+This one command will save you from installing dependencies manually, and will:
 - Make directory for backend that you entered earlier
 - Switch to the created directory 
 - Initiate the npm package for your backend through running the `npm init --yes` command
