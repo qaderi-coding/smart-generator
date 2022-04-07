@@ -264,7 +264,7 @@ Happy codding! 😀😀😀
 ## Contributing
 
 Contributions are always welcome!
-If you face any problem, or recommend any feature or changes. Feel free, just make an issue to let me know.
+If are you faced any problem, or recommend any feature or changes. Feel free, just make an issue to let me know.
 
 ## License
 
