@@ -21,13 +21,13 @@ This project only works if you want to develop smart contract using hardhat in b
 
 - Run the following commands to get prepare your  project's backend and frontend
 ```
-mkdir quiz-dapp // name whatever your project is 
+mkdir quiz-dapp // Name whatever your project is 
 cd quiz-dapp
 git clone https://github.com/qaderi-coding/smart-generator
 cd smart-generator 
-npm run init // Will generate scripts that we will run later 
-npm run backend // Will install all essential backend dependencies and will generate backend common code required by a project
-npm run frontend // Will install all essential frontend dependencies and will generate frontend common code required by a project
+npm run init // Generates scripts that we will run later 
+npm run backend // Installs all essential backend dependencies and will generate backend common code required by a project
+npm run frontend // Installs all essential frontend dependencies and will generate frontend common code required by a project
 ```
 Boom, You avoided time consumption through doing tasks manually, enjoy the saved time! 😀
 ## You still don't know how it works, let's try an example 
