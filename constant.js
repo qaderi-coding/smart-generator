@@ -1,7 +1,7 @@
-const BACKEND_DIR_NAME = "backend"
-const CONTRACT_NAME = "cryptoDev"
-const NETWORK = "Ropsten"
-const FRONTEND_DIR_NAME = "frontend"
+const BACKEND_DIR_NAME = ""
+const CONTRACT_NAME = ""
+const NETWORK = ""
+const FRONTEND_DIR_NAME = ""
 
 module.exports = {
     BACKEND_DIR_NAME,
