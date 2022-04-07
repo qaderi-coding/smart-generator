@@ -34,7 +34,7 @@ Boom, you avoided time consumption, enjoy the saved time! 😀
 ### Requirements 
 - We want to develop a Whitelist-Dapp for instance
 - The backend name shoud be `backend` where we will have our contracts 
-- The Contract name should be `CryptoDev`
+- The contract name should be `CryptoDev`
 - The network should be `Rinkeby`
 - The frontend name should be `frontend` where we will have our website
 
