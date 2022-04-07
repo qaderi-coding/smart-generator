@@ -7,7 +7,20 @@ This package is for a web3 project that consists of backend and frontend. To pre
 Hey, Developers! Don't worry, as a LearnWeb3DAO school student, I resolved these concerns for you.😍
 
 Just by cloning this tiny repository you will be able to prepare the project along with essential code that is shared between all common projects by running 3 or 4 commands instead typing a lot of commands manually.
+## How it works 
+This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend 
 
+- Run the following commands to get preprare your  project's backend and frontend
+```
+mkdir quiz-dapp // name whatever your project is 
+cd quiz-dapp
+git clone https://github.com/qaderi-coding/smart-generator
+cd smart-generator 
+npm run init // Will generate scripts that we will run later 
+npm run backend // Will install all essential backend dependcies and will generate backend common code required by a project
+npm run frontend // Will install all essential frontend dependices and will generate frontend common code requires by a project
+```
+Boom, You avoided time consumption, enjoy the saved time! 
 ## Prerequisite
 - You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
 - You need to install plopjs, execute the following command to install it
@@ -18,7 +31,11 @@ Plopjs is a Javascript package which is used for files and code generation and t
 
 We need to install plopjs globally in order to use it for different projects.
 
-## Running the package
+## Lets try an example 
+### Requirments 
+- We want to develop a Whitelist-Dapp for instance.
+
+Lets see how smart-generator package generates the essential code for us and how it install all required dependcies for backend and frontend.
 ### Backend 
 
 Cool, to run the package for backend, follow the instructions below.
