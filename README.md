@@ -276,7 +276,7 @@ Happy codding! 😀😀😀
 ## Changelog 
 - Shall make npm package that you can install through npm instead cloning 
 - Shall make GUI application in electron.js that you can use in Linux, Mac and Windows operating systems 
-- Shall enrich the package reduce the user interaction and to make the life of developers easier by automation
+- Shall enrich the package to reduce the user interaction and to make the life of developers easier by automation
 
 ## Contributing
 
