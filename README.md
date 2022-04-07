@@ -7,6 +7,15 @@ This package is for a web3 project that consists of backend and frontend. To pre
 Hey, Developers! Don't worry, as a LearnWeb3DAO school student, I resolved these concerns for you.😍
 
 Just by cloning this tiny repository you will be able to prepare the project along with essential code that is shared between all common projects by running 3 or 4 commands instead typing a lot of commands manually.
+## Prerequisite
+- You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
+- You need to install plopjs, execute the following command to install it
+```
+npm install -g plop
+```
+Plopjs is a Javascript package which is used for files and code generation and this smart-generator is developd on top of plopjs. Go to [plopj documention](https://plopjs.com/) for further corospendance.
+
+We need to install plopjs globally in order to use it for different projects.
 ## How it works 
 This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend 
 
@@ -21,16 +30,6 @@ npm run backend // Will install all essential backend dependencies and will gene
 npm run frontend // Will install all essential frontend dependencies and will generate frontend common code required by a project
 ```
 Boom, You avoided time consumption through doing tasks manually, enjoy the saved time! 😀
-## Prerequisite
-- You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
-- You need to install plopjs, execute the following command to install it
-```
-npm install -g plop
-```
-Plopjs is a Javascript package which is used for files and code generation and this smart-generator is developd on top of plopjs. Go to [plopj documention](https://plopjs.com/) for further corospendance.
-
-We need to install plopjs globally in order to use it for different projects.
-
 ## You still don't know how it works, let's try an example 
 ### Requirements 
 - We want to develop a Whitelist-Dapp for instance.
