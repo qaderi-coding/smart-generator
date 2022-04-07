@@ -33,10 +33,10 @@ Boom, you avoided time consumption, enjoy the saved time! 😀
 ## You still don't know how it works, let's try an example 
 ### Requirements 
 - We want to develop a Whitelist-Dapp for instance
-- The backend name shoud be `backend` where we will have our contracts 
+- The backend directory name shoud be `backend` where we will have our contracts 
 - The contract name should be `CryptoDev`
 - The network should be `Rinkeby`
-- The frontend name should be `frontend` where we will have our website
+- The frontend directory name should be `frontend` where we will have our website
 
 Let's see how smart-generator package generates the essential code for us and how it installs all required dependencies for backend and frontend.
 ### Backend 
