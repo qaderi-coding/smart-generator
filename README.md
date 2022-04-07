@@ -4,11 +4,11 @@
 The repetitive tasks are boring and most time-consuming while developing a project, and most of the projects have share points initially.
 This package is for a web3 project that consists of backend and frontend. To prepare a project we need a bunch of commands for creating directories, project initialization, installing dependencies, adding initial shared code, and much more on both ends.
 
-Hey, Developers! Don't worry, as a LearnWeb3DAO school student, I resolved these concerns for you.
+Hey, Developers! Don't worry, as a LearnWeb3DAO school student, I resolved these concerns for you.😍
 
 Just by cloning this tiny repository you will be able to prepare the project along with essential code that is shared between all common projects by running 3 or 4 commands instead typing a lot of commands manually.
 
-# Prerequisite
+## Prerequisite
 - You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
 - You need to install plopjs, execute the following command to install it
 ```
@@ -18,8 +18,8 @@ Plopjs is a Javascript package which is used for files and code generation and t
 
 We need to install plopjs globally in order to use it for different projects.
 
-# Running the package
-## backend 
+## Running the package
+### Backend 
 
 Cool, to run the package for backend, follow the instructions below.
 - First, you need to create a folder where you will have your backend and frontend folders
@@ -133,9 +133,9 @@ module.exports = {
 
 Awesome, executing this one command `npm run backend` did all stuff for us dynamically as per our inputs to prepare the backend.
 
-## frontend 
+## Frontend 
 Now, that we have prepare our backend, it is time to get prepare our frontend.
-Lets go.
+Lets go.🚀
 
 - Execute the following command to generate the essential code and install the dependencies needed by a common project for our frontend.
 ```
@@ -242,9 +242,9 @@ export default function Home() {
 }
 ```
 
-Congratulation, You prepared your project for both frontend and backend just by typing three commands.
+Congratulation! 🎊, You prepared your project for both frontend and backend just by typing three commands.
 
-Happy codding 
+Happy codding! 😀😀😀
 
 ## Changelog 
 - Shall make npm package that you can install through npm instead cloning 
