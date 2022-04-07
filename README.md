@@ -38,6 +38,8 @@ Now, switch to the directory and execute the following command.
 cd smart-generator
 npm run init
 ```
+<img src = "./public/images/screenshot1.png">
+
 This command will prompt you to enter:
 - Backend directory name where your smart contracts will be go later, if you want to choose default name `hardhat-tutorial` for your backend folder, don't type, press enter!
 - Contract name that we will use for variable and file names needed in the code
@@ -57,8 +59,13 @@ This one command will save you from typing manual, and will:
 - Install hardhat dependency through running the `npm install --save-dev hardhat` command. 
 - initiate hardhat project through running the `npx hardhat` command.
 
-Besides installing above dependencies it will generate the following files along with essential code.
-- Will create a contract file by the name of that you entered earlier with the following code
+
+Once the dependencies are get installed you will prompt to confirm the contract and network names that you entered earlier, Please, press enter, don't type any thing.
+
+<img src = "./public/images/screenshot2.png">
+
+Then, the command will create the following files along with code .
+- First, it Will create a contract file by the name of that you entered earlier with the following code
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
@@ -67,7 +74,7 @@ contract CryptoDev {
 
 }
 ```
-- Will create env file with the following code according to the network that you typed earlier
+- Second, it Will create env file with the following code according to the network that you typed earlier
 ```
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard and select the network as Rinkeby, and replace "add-the-alchemy-key-url-here" with its key url
@@ -79,7 +86,7 @@ ALCHEMY_API_KEY_URL=""
 // Be aware of NEVER putting real Ether into testing accounts
 RINKEBY_PRIVATE_KEY=""
 ``` 
-- Will generate deploy.js file with the following code according to contract and network names that you chose earlier
+- Third, it Will generate deploy.js file with the following code according to contract and network names that you chose earlier
 ```
 const { ethers } = require("hardhat");
 
@@ -111,7 +118,7 @@ main()
     process.exit(1);
   })
 ```
-- Will change the hardhat.config.js code according to the network that you chose earlier 
+- Fourth, it Will change the hardhat.config.js code according to the network that you chose earlier 
 ```
 require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({ path: ".env" });
@@ -141,8 +148,6 @@ Lets go.🚀
 ```
 npm run frontend
 ```
-- then, press enter for both prompts, don't type anything.
-
 This command will save your time and will:
 - Create the directory for frontend by the name you entered earlier
 - Switch to the created directory 
@@ -150,13 +155,18 @@ This command will save your time and will:
 - Install web3modal package through running the `npm install web3modal`
 - Install ethers.js package through running the `npm install ethers` command
 
-Besides, installing the above dependencies, it will generate the following files along with essential code according to the inputs that we entered earlier.
-- Will generate constant file along with following code 
+Once the dependencies are get installed you will prompt to confirm the contract and network names that you entered earlier, Please, press enter. don't type any thing.
+
+<img src = "./public/images/screenshot3.png">
+
+Then, it will create the following files along with common code 
+
+- First, it Will create constant file along with following code 
 ```
 export const CRYPTODEV_ADDRESS = "address of your cryptodev contract"
 export const abi = []
 ```
-- Will change the index.js code to the following initial code needed by a common project to connect a wallet and sign or provide a transaction 
+- Second, it Will change the index.js code to the following initial code needed by a common project to connect a wallet and sign or provide a transaction 
 ```
 import { providers } from "ethers";
 import React, { useEffect, useRef, useState } from "react";
