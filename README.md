@@ -52,7 +52,7 @@ Now, it is time to install hardhat along with initial code. So execute the follo
 npm run backend
 ```
 
-This one command will save you from typing manual, and will:
+This one command will save you from installing dependencies manually, and will:
 - Make directory for backend that you entered earlier
 - Switch to the created directory 
 - Initiate the npm package for your backend through running the `npm init --yes` command
@@ -259,12 +259,12 @@ Happy codding! 😀😀😀
 ## Changelog 
 - Shall make npm package that you can install through npm instead cloning 
 - Shall make GUI application in electron.js that you can use in Linux, Mac and Windows operating systems 
-- Will enrich the package to make the life of developers easier by automation
+- Shall enrich the package to make the life of developers easier by automation
 
 ## Contributing
 
 Contributions are always welcome!
-If you face any problem, or recommend any feature or changes. Feel free, just make an issue to let me know.
+If are you faced any problem, or recommend any feature or changes. Feel free, just make an issue to let me know.
 
 ## License
 
