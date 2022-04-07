@@ -80,12 +80,7 @@ This one command will save you from installing dependencies manually, and will:
 - Install env package through running the `npm install dotenv`
 - initiate hardhat project through running the `npx hardhat` command.
 
-
-Once the dependencies are get installed you will be prompted to confirm the contract and network names that you entered earlier. Please, press enter, don't type anything.
-
-<img src = "./public/images/screenshot2.png">
-
-Then, the command will create the following files along with code.
+Once the dependencies are get installed. Then, the command will create the following files along with common code.
 - First, it will create a contract file by the name of that you entered earlier with the following code
 ```
 // SPDX-License-Identifier: MIT
@@ -176,11 +171,7 @@ This command will save your time and will:
 - Install web3modal package through running the `npm install web3modal`
 - Install ethers.js package through running the `npm install ethers` command
 
-Once the dependencies are get installed you will be prompted to confirm the contract and network names that you entered earlier. Please, press enter, don't type anything.
-
-<img src = "./public/images/screenshot3.png">
-
-Then, it will create the following files along with common code 
+Once the dependencies are get installed. Then, it will create the following files along with common code 
 
 - First, it will create constant file along with following code 
 ```
