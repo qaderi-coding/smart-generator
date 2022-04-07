@@ -29,7 +29,7 @@ npm run init // Generates scripts that we will run later
 npm run backend // Installs all essential backend dependencies and will generate backend common code required by a project
 npm run frontend // Installs all essential frontend dependencies and will generate frontend common code required by a project
 ```
-Boom, You avoided time consumption through doing tasks manually, enjoy the saved time! 😀
+Boom, You avoided time consumption, enjoy the saved time! 😀
 ## You still don't know how it works, let's try an example 
 ### Requirements 
 - We want to develop a Whitelist-Dapp for instance.
@@ -39,7 +39,7 @@ Let's see how smart-generator package generates the essential code for us and ho
 
 Cool, to run the package for backend, follow the instructions below.
 - First, you need to create a folder where you will have your backend and frontend folders
-- Open up terminal and execute to the following commands
+- Open up terminal and execute the following commands
 ```
 mkdir Whitelist-Dapp
 cd Whitelist-Dapp
@@ -49,7 +49,7 @@ cd Whitelist-Dapp
 git clone https://github.com/qaderi-coding/smart-generator.git
 ```
 
-Now, switch to the directory and execute the following command.
+Now, switch to the directory and execute the following commands.
 ```
 cd smart-generator
 npm run init
@@ -57,12 +57,12 @@ npm run init
 <img src = "./public/images/screenshot1.png">
 
 This command will prompt you to enter:
-- Backend directory name where your smart contracts will be go later, if you want to choose default name `hardhat-tutorial` for your backend folder, don't type, press enter!
+- Backend directory name where your smart contracts will go later, if you want to choose default name `hardhat-tutorial` for your backend folder, don't type, press enter!
 - Contract name that we will use for variable and file names needed in the code
-- Network name that will we use for constant and normal variables in the code
+- Network name that we will use for constant and normal variables in the code
 - Frontend directory name where your frontend website will be placed, If you want the default name `my-app` for frontend, don't type, press enter!
 
-Now, it is time to install hardhat along with initial code. So execute the following command
+Now, it is time to install backend dependencies along with common code. So execute the following command
 
 ```
 npm run backend
@@ -72,16 +72,17 @@ This one command will save you from installing dependencies manually, and will:
 - Make directory for backend that you entered earlier
 - Switch to the created directory 
 - Initiate the npm package for your backend through running the `npm init --yes` command
-- Install hardhat dependency through running the `npm install --save-dev hardhat` command. 
+- Install hardhat dependency through running the `npm install --save-dev hardhat` command
+- Install env package through running the `npm install dotenv`
 - initiate hardhat project through running the `npx hardhat` command.
 
 
-Once the dependencies are get installed you will prompt to confirm the contract and network names that you entered earlier, Please, press enter, don't type any thing.
+Once the dependencies are get installed you will be prompted to confirm the contract and network names that you entered earlier. Please, press enter, don't type anything.
 
 <img src = "./public/images/screenshot2.png">
 
-Then, the command will create the following files along with code .
-- First, it Will create a contract file by the name of that you entered earlier with the following code
+Then, the command will create the following files along with code.
+- First, it will create a contract file by the name of that you entered earlier with the following code
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
@@ -90,7 +91,7 @@ contract CryptoDev {
 
 }
 ```
-- Second, it Will create env file with the following code according to the network that you typed earlier
+- Second, it will create env file with the following code according to the network that you entered earlier
 ```
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard and select the network as Rinkeby, and replace "add-the-alchemy-key-url-here" with its key url
@@ -102,7 +103,7 @@ ALCHEMY_API_KEY_URL=""
 // Be aware of NEVER putting real Ether into testing accounts
 RINKEBY_PRIVATE_KEY=""
 ``` 
-- Third, it Will generate deploy.js file with the following code according to contract and network names that you chose earlier
+- Third, it will create deploy.js file with the following code according to contract and network names that you chose earlier
 ```
 const { ethers } = require("hardhat");
 
@@ -134,7 +135,7 @@ main()
     process.exit(1);
   })
 ```
-- Fourth, it Will change the hardhat.config.js code according to the network that you chose earlier 
+- Fourth, it will change the hardhat.config.js code according to the network that you chose earlier 
 ```
 require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({ path: ".env" });
@@ -157,7 +158,7 @@ module.exports = {
 Awesome, executing this one command `npm run backend` did all stuff for us dynamically as per our inputs to prepare the backend.
 
 ## Frontend 
-Now, that we have prepare our backend, it is time to get prepare our frontend.
+Now, that we prepared our backend, it is time to get prepare our frontend.
 Let's go.🚀
 
 - Execute the following command to generate the essential code and install the dependencies needed by a common project for our frontend.
@@ -171,18 +172,18 @@ This command will save your time and will:
 - Install web3modal package through running the `npm install web3modal`
 - Install ethers.js package through running the `npm install ethers` command
 
-Once the dependencies are get installed you will prompt to confirm the contract and network names that you entered earlier, Please, press enter. don't type any thing.
+Once the dependencies are get installed you will be prompted to confirm the contract and network names that you entered earlier. Please, press enter, don't type anything.
 
 <img src = "./public/images/screenshot3.png">
 
 Then, it will create the following files along with common code 
 
-- First, it Will create constant file along with following code 
+- First, it will create constant file along with following code 
 ```
 export const CRYPTODEV_ADDRESS = "address of your cryptodev contract"
 export const abi = []
 ```
-- Second, it Will change the index.js code to the following initial code needed by a common project to connect a wallet and sign or provide a transaction 
+- Second, it will change the index.js code to the following initial code needed by a common project to connect a wallet and sign or provide a transaction 
 ```
 import { providers } from "ethers";
 import React, { useEffect, useRef, useState } from "react";
@@ -275,12 +276,13 @@ Happy codding! 😀😀😀
 ## Changelog 
 - Shall make npm package that you can install through npm instead cloning 
 - Shall make GUI application in electron.js that you can use in Linux, Mac and Windows operating systems 
-- Shall enrich the package to make the life of developers easier by automation
+- Shall enrich the package reduce the user interaction and to make the life of developers easier by automation
 
 ## Contributing
 
 Contributions are always welcome!
-If are you faced any problem, or recommend any feature or changes. Feel free, just make an issue to let me know.
+If are you faced any problem, or recommend any feature or changes.
+Feel free, just make an issue to let me know.
 
 ## License
 
