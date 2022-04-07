@@ -10,17 +10,17 @@ Just by cloning this tiny repository you will be able to prepare the project alo
 ## How it works 
 This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend 
 
-- Run the following commands to get preprare your  project's backend and frontend
+- Run the following commands to get prepare your  project's backend and frontend
 ```
 mkdir quiz-dapp // name whatever your project is 
 cd quiz-dapp
 git clone https://github.com/qaderi-coding/smart-generator
 cd smart-generator 
 npm run init // Will generate scripts that we will run later 
-npm run backend // Will install all essential backend dependcies and will generate backend common code required by a project
-npm run frontend // Will install all essential frontend dependices and will generate frontend common code requires by a project
+npm run backend // Will install all essential backend dependencies and will generate backend common code required by a project
+npm run frontend // Will install all essential frontend dependencies and will generate frontend common code required by a project
 ```
-Boom, You avoided time consumption, enjoy the saved time! 
+Boom, You avoided time consumption through doing tasks manually, enjoy the saved time! 😀
 ## Prerequisite
 - You need to install node.js. If you don't have it installed in your computer, download it from [here](https://nodejs.org/en/download/) 
 - You need to install plopjs, execute the following command to install it
@@ -31,11 +31,11 @@ Plopjs is a Javascript package which is used for files and code generation and t
 
 We need to install plopjs globally in order to use it for different projects.
 
-## Lets try an example 
-### Requirments 
+## You still don't know how it works, let's try an example 
+### Requirements 
 - We want to develop a Whitelist-Dapp for instance.
 
-Lets see how smart-generator package generates the essential code for us and how it install all required dependcies for backend and frontend.
+Let's see how smart-generator package generates the essential code for us and how it installs all required dependencies for backend and frontend.
 ### Backend 
 
 Cool, to run the package for backend, follow the instructions below.
@@ -159,7 +159,7 @@ Awesome, executing this one command `npm run backend` did all stuff for us dynam
 
 ## Frontend 
 Now, that we have prepare our backend, it is time to get prepare our frontend.
-Lets go.🚀
+Let's go.🚀
 
 - Execute the following command to generate the essential code and install the dependencies needed by a common project for our frontend.
 ```
