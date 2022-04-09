@@ -45,7 +45,7 @@ export default function Home() {
 
     // If user is not connected to the {{pascalCase network}} network, let them know and throw an error
     const { chainId } = await web3Provider.getNetwork();
-    if (chainId !== null) {
+    if (chainId !== {{chainID}}) {
       window.alert("Change the network to {{pascalCase network}}");
       throw new Error("Change network to {{pascalCase network}}");
     }

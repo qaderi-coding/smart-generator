@@ -58,13 +58,14 @@ Now, switch to the directory and execute the following commands.
 cd smart-generator
 npm run init
 ```
-<img src = "./public/images/screenshot1.png">
+<img src = "./public/images/screenshot.png">
 
-This command will prompt you to enter:
-- Backend directory name where your smart contracts will go later, if you want to choose default name `hardhat-tutorial` for your backend folder, don't type, press enter!
-- Contract name that we will use for variable and file names needed in the code
-- Network name that we will use for constant and normal variables in the code
-- Frontend directory name where your frontend website will be placed, If you want the default name `my-app` for frontend, don't type, press enter!
+This command will prompt you to:
+- Choose operating system that the package will generate some scripts accordingly
+- Enter backend directory name where your smart contracts will go later, if you want to choose default name `hardhat-tutorial` for your backend folder, don't type, press enter!
+- Enter contract name that we will use for variable and file names needed in the code
+- Choose network name that we will use for constant and normal variables in the code
+- Enter frontend directory name where your frontend website will be placed, If you want the default name `my-app` for frontend, don't type, press enter!
 
 Now, it is time to install backend dependencies along with common code. So execute the following command
 

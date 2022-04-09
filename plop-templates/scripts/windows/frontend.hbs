@@ -1,0 +1,9 @@
+cd ..
+mkdir {{frontendDirName}}
+cd {{frontendDirName}}
+call npx create-next-app@latest .
+call npm install web3modal
+call npm install ethers
+cd ..
+cd smart-generator
+call npm run generate-frontend
