@@ -21,8 +21,8 @@ This project only works if you want to develop smart contract using hardhat in b
 
 - Run the following commands to get prepare your  project's backend and frontend
 ```
-mkdir quiz-dapp // Name whatever your project is 
-cd quiz-dapp
+mkdir Whitelist-Dapp // Name whatever your project is 
+cd Whitelist-Dapp
 git clone https://github.com/qaderi-coding/smart-generator
 cd smart-generator 
 npm run init // Generates scripts that we will run later 
