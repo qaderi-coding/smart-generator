@@ -16,6 +16,10 @@ npm install -g plop
 Plopjs is a Javascript package which is used for files and code generation and this smart-generator is developd on top of plopjs. Go to [plopj documention](https://plopjs.com/) for further corospendance.
 
 We need to install plopjs globally in order to use it for different projects.
+
+## Video Tutorial
+[![IMAGE ALT TEXT HERE](https://github.com/qaderi-coding/smart-generator/blob/main/public/images/tutorial.png)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 ## How it works 
 This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend.
 
