@@ -9,7 +9,7 @@ module.exports = function (plop) {
     
     // Init generator generates some scripts that will make directories, install dependencies,
     // and runs commands to generate common code required by a project in our backend 
-    // according to operating system that chose earlier
+    // according to operating system that we chose earlier
     plop.setGenerator('init', {
         description: 'preparing shell scripts',
         prompts: [
