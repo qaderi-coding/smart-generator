@@ -17,7 +17,7 @@ Plopjs is a Javascript package which is used for files and code generation and t
 
 We need to install plopjs globally in order to use it for different projects.
 ## How it works 
-This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend 
+This project only works if you want to develop smart contract using hardhat in backend and next.js in frontend.
 
 - Run the following commands to get prepare your  project's backend and frontend
 ```
